@@ -1,5 +1,5 @@
-const Hapi = require('hapi');
-const hapijsStatusMonitor = require('hapijs-status-monitor');
+const Hapi = require('@hapi/hapi');
+const hapijsStatusMonitor = require('hapi-status-monitor');
 
 // Create a server with a host and port
 const server = Hapi.server({

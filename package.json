@@ -1,5 +1,5 @@
 {
-  "name": "hapijs-status-monitor",
+  "name": "hapi-status-monitor",
   "version": "1.0.0",
   "description": "Monitoring plugin for hapi.js applications",
   "main": "index.js",
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/ziyasal/hapijs-status-monitor.git"
+    "url": "https://github.com/ziyasal/hapi-status-monitor.git"
   },
   "keywords": [
     "node",
@@ -28,17 +28,17 @@
   ],
   "license": "MIT",
   "dependencies": {
-    "pidusage": "^2.0.6",
-    "socket.io": "^2.0.4"
+    "pidusage": "^2.0.17",
+    "socket.io": "^2.2.0"
   },
   "devDependencies": {
-    "coveralls": "^3.0.0",
-    "eslint": "^4.19.1",
-    "eslint-config-airbnb-base": "^12.1.0",
-    "eslint-formatter-pretty": "^1.3.0",
-    "eslint-plugin-import": "^2.9.0",
-    "husky": "^0.14.3",
-    "jest": "^22.4.3"
+    "coveralls": "^3.0.6",
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-formatter-pretty": "^2.1.1",
+    "eslint-plugin-import": "^2.18.2",
+    "husky": "^3.0.3",
+    "jest": "^24.8.0"
   },
   "jest": {
     "bail": true,

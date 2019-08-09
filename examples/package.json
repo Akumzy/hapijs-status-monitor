@@ -1,5 +1,5 @@
 {
-  "name": "hapijs-status-monitor-sample",
+  "name": "hapi-status-monitor-sample",
   "version": "1.0.0",
   "description": "Examples",
   "main": "server.js",
@@ -10,8 +10,8 @@
   "author": "@ziyasal sarikayaziya@gmail.com",
   "license": "MIT",
   "dependencies": {
-    "hapi": "^17.2.3",
-    "hapijs-status-monitor": "file:../",
+    "@hapi/hapi": "^18.3.1",
+    "hapi-status-monitor": "file:../",
     "request": "^2.85.0"
   }
 }

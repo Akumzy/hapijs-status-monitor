@@ -1,7 +1,7 @@
 const middleware = require('../src/middleware-wrapper');
 const defaultConfig = require('../src/helpers/default-config');
 
-describe('hapijs-status-monitor', () => {
+describe('hapi-status-monitor', () => {
   describe('when initialised', () => {
     it('then it should be an instance of Function', () => {
       expect(middleware).toBeInstanceOf(Function);

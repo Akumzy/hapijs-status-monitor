@@ -3,6 +3,6 @@ const register = require('./src/middleware-wrapper');
 
 module.exports.plugin = {
   register,
-  name: 'hapijs-status-monitor',
+  name: 'hapi-status-monitor',
   pkg,
 };

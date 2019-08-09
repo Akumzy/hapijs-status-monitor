@@ -1,7 +1,7 @@
 
-# hapijs-status-monitor
+# hapi-status-monitor
 
-[![Build Status](https://travis-ci.org/ziyasal/hapijs-status-monitor.svg?branch=master)](https://travis-ci.org/ziyasal/hapijs-status-monitor) [![npm](https://img.shields.io/npm/v/hapijs-status-monitor.svg)](https://www.npmjs.com/package/hapijs-status-monitor) [![Coverage Status](https://coveralls.io/repos/github/ziyasal/hapijs-status-monitor/badge.svg?branch=master)](https://coveralls.io/github/ziyasal/hapijs-status-monitor?branch=master)
+[![Build Status](https://travis-ci.org/ziyasal/hapi-status-monitor.svg?branch=master)](https://travis-ci.org/ziyasal/hapi-status-monitor) [![npm](https://img.shields.io/npm/v/hapi-status-monitor.svg)](https://www.npmjs.com/package/hapi-status-monitor) [![Coverage Status](https://coveralls.io/repos/github/ziyasal/hapi-status-monitor/badge.svg?branch=master)](https://coveralls.io/github/ziyasal/hapi-status-monitor?branch=master)
 
 Simple, self-hosted module based on [Socket.IO](http://socket.io) and
 [Chart.js](http://www.chartjs.org) to report realtime server metrics for
@@ -16,13 +16,13 @@ Simple, self-hosted module based on [Socket.IO](http://socket.io) and
 **Install package**
 
 ```sh
-npm install hapijs-status-monitor --save
+npm install hapi-status-monitor --save
 ```
 
 **Register plugin**
 
 ```js
-await server.register({ plugin: require('hapijs-status-monitor') });
+await server.register({ plugin: require('hapi-status-monitor') });
 ```
 **Run server and go to** `/status`
 
@@ -39,7 +39,7 @@ Monitor can be configured by passing options object into server register method
 
 ```js
 await server.register({
-  plugin: require('hapijs-status-monitor'),
+  plugin: require('hapi-status-monitor'),
   options: {
     title: 'My Status Monitor',
     routeConfig: {
@@ -72,7 +72,7 @@ routeConfig: {}  // Route options, see https://github.com/hapijs/hapi/blob/maste
 Thanks goes to these wonderful people ([emoji key](https://github.com/kentcdodds/all-contributors#emoji-key)):
 
 <!-- ALL-CONTRIBUTORS-LIST:START - Do not remove or modify this section -->
-| [<img src="https://avatars0.githubusercontent.com/u/1651945?v=4" width="75px;"/><br /><sub>z i λ a s a l</sub>](http://www.ziyasal.com)<br />[💻](https://github.com/ziyasal/hapijs-status-monitor/commits?author=ziyasal "Code") [⚠️](https://github.com/ziyasal/hapijs-status-monitor/commits?author=ziyasal "Tests") [📖](https://github.com/ziyasal/hapijs-status-monitor/commits?author=ziyasal "Documentation") | [<img src="https://avatars2.githubusercontent.com/u/457834?v=4" width="75px;"/><br /><sub>Daniel Bayerlein</sub>](https://github.com/danielbayerlein)<br />[💻](https://github.com/ziyasal/hapijs-status-monitor/commits?author=danielbayerlein "Code") [⚠️](https://github.com/ziyasal/hapijs-status-monitor/commits?author=danielbayerlein "Tests") [📖](https://github.com/ziyasal/hapijs-status-monitor/commits?author=danielbayerlein "Documentation") |
+| [<img src="https://avatars0.githubusercontent.com/u/1651945?v=4" width="75px;"/><br /><sub>z i λ a s a l</sub>](http://www.ziyasal.com)<br />[💻](https://github.com/ziyasal/hapi-status-monitor/commits?author=ziyasal "Code") [⚠️](https://github.com/ziyasal/hapi-status-monitor/commits?author=ziyasal "Tests") [📖](https://github.com/ziyasal/hapi-status-monitor/commits?author=ziyasal "Documentation") | [<img src="https://avatars2.githubusercontent.com/u/457834?v=4" width="75px;"/><br /><sub>Daniel Bayerlein</sub>](https://github.com/danielbayerlein)<br />[💻](https://github.com/ziyasal/hapi-status-monitor/commits?author=danielbayerlein "Code") [⚠️](https://github.com/ziyasal/hapi-status-monitor/commits?author=danielbayerlein "Tests") [📖](https://github.com/ziyasal/hapi-status-monitor/commits?author=danielbayerlein "Documentation") |
 | :---: | :---: |
 <!-- ALL-CONTRIBUTORS-LIST:END -->
 

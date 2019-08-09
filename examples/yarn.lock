@@ -338,7 +338,7 @@ hapi@^17.2.3:
     teamwork "3.x.x"
     topo "3.x.x"
 
-"hapijs-status-monitor@file:..":
+"hapi-status-monitor@file:..":
   version "1.0.0"
   dependencies:
     pidusage "^2.0.6"
