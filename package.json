@@ -5,8 +5,7 @@
   "main": "index.js",
   "scripts": {
     "lint": "eslint --format=node_modules/eslint-formatter-pretty .",
-    "test": "npm run lint && jest",
-    "prepush": "npm test"
+    "test": "npm run lint && jest"
   },
   "repository": {
     "type": "git",
@@ -45,5 +44,10 @@
     "collectCoverage": true,
     "coverageDirectory": "coverage",
     "testEnvironment": "node"
+  },
+  "husky": {
+    "hooks": {
+      "pre-push": "npm test"
+    }
   }
 }
